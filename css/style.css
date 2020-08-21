@@ -1,0 +1,42 @@
+#divBusca{
+    background-color: rgb(184, 184, 184);
+    border: solid 1px;
+    border-radius: 15px;
+    width: 320px;
+}
+
+#txtBusca{
+    
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-style: italic;
+    font-size: 18px;
+    text-align: left;
+    border: none;
+    height: 44px;
+    width: 260px;
+}
+
+#divLupa{
+    width: auto;
+    /* background-color: tomato; */
+    border-radius: 15px;
+
+}
+
+#imgLupa{
+    width: 35px;
+    /* background-color: tomato; */
+    padding-top: 1px;
+    border-radius: 15px;
+
+}
+
+#btnLupa{
+    width: auto;
+    background-color: rgb(71, 255, 95);
+    align-items: relative;
+    border-radius: 15px;
+
+}
