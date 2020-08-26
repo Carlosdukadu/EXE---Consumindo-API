@@ -1,42 +1,100 @@
-#divBusca{
-    background-color: rgb(184, 184, 184);
-    border: solid 1px;
-    border-radius: 15px;
-    width: 320px;
+body,
+html {
+
+  /* margin: 0;
+  padding: 0; */
+  background-image: url('../img/background.jpg');
+  background-size: 100%;
+  background-image: fixed;
+  background-attachment: fixed;
+  /* background-position: bottom; */
+  /* overflow-x: hidden; */
+  width: auto;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding: 10vh 0; */
+
 }
 
-#txtBusca{
-    
-    float: left;
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5vh;
+  margin-top: 15px;
+  border: 2px solid rgb(139, 139, 139);
+  border-radius: 5px;
+  flex-grow: inherit;
+
+  padding: 10px;
+  background: #eee;
+  
+}
+
+.card-container:hover {
+  cursor: pointer;
+  box-shadow: 0 0 5px #888;
+}
+
+#labelInput{
+    color: #888;
+    display: none;
+}
+
+._urlDigitada {
+  /* align-items: relative; */
+  /* padding: relative; */
+  width: 30%;
+  margin-bottom: 5px;
+  background-color: rgb(232, 234, 255);
+  border: 2px solid rgb(139, 139, 139);
+  border-radius: 5px;
+}
+.msgErrorCampoUrlVazio {
+    /* align-items: relative; */
+    /* padding: relative; */
+    width: 30%;
+    margin-bottom: 5px;
+    background-color: rgb(232, 234, 255);
+    border: 2px solid rgb(255, 26, 26);
+    border-radius: 5px;
+  }
+._urlDigitada:hover{
+    opacity: 70%;
+}
+textarea:focus, input:focus, select:focus {
+    /* box-shadow: 0 0 0 0;
+    box-shadow: ;
+    border: 2px solid rgb(238, 0, 0);
+    outline: 0; */
+} 
+textarea:focus, input:focus, select:focus {
+    /* box-shadow: 0 0 0 0;
+    border: 2px solid rgb(255, 156, 156);
+    border: 40px solid rgb(197, 16, 16);
+    background-color: rgb(238, 0, 0);
+    outline: 2px solid rgb(238, 0, 0);   */
+} 
+
+h2{
+    color: rgb(88, 88, 88);
+    font-size: 180%;
+}
+p, h3{
+    font-size: x-large;
+    margin: auto;
+}
+
+
+::-webkit-scrollbar
+{
+    width: 0px;
+}
+::-webkit-scrollbar-track-piece
+{
     background-color: transparent;
-    padding-left: 5px;
-    font-style: italic;
-    font-size: 18px;
-    text-align: left;
-    border: none;
-    height: 44px;
-    width: 260px;
-}
-
-#divLupa{
-    width: auto;
-    /* background-color: tomato; */
-    border-radius: 15px;
-
-}
-
-#imgLupa{
-    width: 35px;
-    /* background-color: tomato; */
-    padding-top: 1px;
-    border-radius: 15px;
-
-}
-
-#btnLupa{
-    width: auto;
-    background-color: rgb(71, 255, 95);
-    align-items: relative;
-    border-radius: 15px;
-
+    -webkit-border-radius: 6px;
 }
